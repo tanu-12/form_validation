@@ -4,32 +4,6 @@
     box-sizing: border-box;
 }
 
-@media (max-width:900px) {
-    .container {
-        flex-direction: column;
-    }
-
-    form,
-    .content {
-        width: 100%;
-    }
-
-    .btn {
-        flex-direction: column;
-
-    }
-
-    .image {
-        height: 70vh;
-    }
-}
-
-@media(max-width:425px) {
-    form {
-        padding: 20px;
-    }
-
-}
 
 body {
     font-family: sans-serif;
@@ -187,4 +161,31 @@ form {
     background-size: contain;
     background-position: center;
     height: 65%;
+}
+
+@media (max-width:900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    form,
+    .content {
+        width: 100%;
+    }
+
+    .btn {
+        flex-direction: column;
+
+    }
+
+    .image {
+        height: 70vh;
+    }
+}
+
+@media(max-width:425px) {
+    form {
+        padding: 20px;
+    }
+
 }
